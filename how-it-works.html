@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumo — How It Works</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/p5.min.js"></script>
+  <script src="js/sketch.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="siteHeader">
+    <div class="container">
+      <div class="headerRow">
+        <a class="brand" href="index.html">
+          <span class="brandMark" aria-hidden="true"></span>
+          <span class="brandName">Lumo</span>
+        </a>
+        <button class="navPill" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+
+      <nav id="site-nav" class="siteNav" aria-label="Primary">
+        <ul class="navList">
+          <li><a href="about.html">About</a></li>
+          <li><a href="how-it-works.html" aria-current="page">How It Works</a></li>
+          <li><a href="try-demo.html">Try Demo</a></li>
+          <li><a href="safety.html">Safety & Support</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &nbsp;/&nbsp; <span>How It Works</span>
+    </div>
+
+    <section class="hero">
+      <div class="heroCard">
+        <h1>How It Works</h1>
+        <p>
+          Lumo is a two-part system: a wearable sensing layer and a spatial response layer. The wearable stays quiet. The space does the “speaking,” using atmosphere.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="sectionTitle">The steps</h2>
+
+      <div class="carousel" aria-label="Steps carousel">
+        <div class="carouselControls">
+          <button class="carouselBtn carouselBtnPrev" type="button">Prev</button>
+          <button class="carouselBtn carouselBtnNext" type="button">Next</button>
+        </div>
+
+        <div class="carouselViewport">
+          <div class="carouselTrack">
+            <div class="carouselSlide">
+              <strong>Sense</strong>
+              <p>The wearable reads simple signals like breathing pace or stillness. No screen. No score.</p>
+            </div>
+            <div class="carouselSlide">
+              <strong>Interpret (Pattern)</strong>
+              <p>AThe system looks for a general direction (e.g., tension → softening, fatigue → slowing). It avoids labeling emotions too specifically.</p>
+            </div>
+            <div class="carouselSlide">
+              <strong>Respond (Atmosphere)</strong>
+              <p>A gentle reflection prompt. No scores, no judgment.</p>
+            </div>
+            <div class="carouselSlide">
+              <strong>Reflect (Choice)</strong>
+              <p>The room shifts in micro-ways: shadows soften, airflow becomes gentler, sound texture changes slightly, surfaces feel warmer/cooler.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid3" style="margin-top:12px;">
+        <div class="media">
+          <img src="assets/solo.png">
+          <div class="mediaCaption">solo</div>
+        </div>
+        <div class="media">
+          <img src="assets/friends.png">
+          <div class="mediaCaption">friends</div>
+        </div>
+        <div class="media">
+          <img src="assets/room.png">
+          <div class="mediaCaption">future</div>
+        </div>
+      </div>
+
+
+      <p class="formHint" style="margin-top:10px;">
+        Interaction type: carousel buttons move the step cards left/right.
+      </p>
+    </section>
+  </main>
+
+  <footer class="siteFooter">
+    <div class="container">
+      <div>Copyright © <span id="year"></span> Lumo. All rights reserved.</div>
+      <div class="footerLinks">
+        <a href="safety.html">Privacy Policy</a>
+        <a href="safety.html">Terms & Conditions</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

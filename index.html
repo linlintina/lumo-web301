@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumo — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/p5.min.js"></script>
+  <script src="js/sketch.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="siteHeader">
+    <div class="container">
+      <div class="headerRow">
+        <a class="brand" href="index.html">
+          <span class="brandMark" aria-hidden="true"></span>
+          <span class="brandName">Lumo</span>
+        </a>
+
+        <button class="navPill" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+      </div>
+
+      <nav id="site-nav" class="siteNav" aria-label="Primary">
+        <ul class="navList">
+          <!-- Labels based on your Figma nav -->
+          <li><a href="about.html">About</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="try-demo.html">Try Demo</a></li>
+          <li><a href="safety.html">Safety &Support</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <span>Home</span>
+    </div>
+
+    <section class="hero" aria-label="Intro">
+      <div class="media" style="margin-top:12px;">
+        <img src="assets/index-1.jpg">
+        <div class="mediaCaption">A visual entry point for the experience.</div>
+      </div>
+
+      <div class="heroGrid">
+        <div class="heroCard">
+          <h1>Relax</h1>
+          <p>
+            Lumo is my Meta Project: a wearable that quietly senses basic signals (like breathing rhythm) and a home layer that responds through atmosphere 
+            instead of screens. It doesnot tll you” how you feel. It gently changes the space so you can notice yourself.
+
+          <div class="btnRow">
+            <a class="btn btnPrimary" href="try-demo.html">Try Demo</a>
+            <a class="btn" href="how-it-works.html">How it works</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Quick links">
+      <h2 class="sectionTitle">Start here</h2>
+
+      <div class="grid3">
+        <div class="card">
+          <h3>Vision & Mission</h3>
+          <p>Why Lumo exists and who it is for.</p>
+          <p><a class="btn" href="about.html">Learn more</a></p>
+        </div>
+
+        <div class="card">
+          <h3>What is Lumo?</h3>
+          <p>A hybrid system: a silent wearable + an ambient home layer that supports emotional regulation through micro-changes in the environment.</p>
+          <p><a class="btn" href="how-it-works.html">View</a></p>
+        </div>
+
+        <div class="card">
+          <h3>Safety first</h3>
+          <p>Boundaries, privacy, and crisis support resources.</p>
+          <p><a class="btn" href="safety.html">Read safety</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="FAQ preview">
+      <h2 class="sectionTitle">Frequently Asked Questions</h2>
+
+      <div class="faqItem">
+        <button class="faqQ" type="button" data-faq-button>Privacy&Consent</button>
+        <div class="faqA">
+          <p>
+            This demo site does not collect real health data. In a real system, consent must be clear,
+            and users should be able to opt out at any time.
+          </p>
+        </div>
+      </div>
+
+      <div class="faqItem">
+        <button class="faqQ" type="button" data-faq-button>Boundaries</button>
+        <div class="faqA">
+          <p>
+            Lumo is not therapy. It is a calming experience concept and should not replace professional support.
+          </p>
+        </div>
+      </div>
+
+      <div class="faqItem">
+        <button class="faqQ" type="button" data-faq-button>Crisis Support</button>
+        <div class="faqA">
+          <p>
+            If you are in immediate danger, contact local emergency services. If you need to talk, see the support links
+            on the Safety & Support page.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="siteFooter">
+    <div class="container">
+      <div>Copyright © <span id="year"></span> Lumo. All rights reserved.</div>
+      <div class="footerLinks">
+        <a href="safety.html">Privacy Policy</a>
+        <a href="safety.html">Terms & Conditions</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

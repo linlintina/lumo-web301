@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lomo — Contact</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/p5.min.js"></script>
+  <script src="js/sketch.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="siteHeader">
+    <div class="container">
+      <div class="headerRow">
+        <a class="brand" href="index.html">
+          <span class="brandMark" aria-hidden="true"></span>
+          <span class="brandName">Lumo</span>
+        </a>
+        <button class="navPill" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+
+      <nav id="site-nav" class="siteNav" aria-label="Primary">
+        <ul class="navList">
+          <li><a href="about.html">About</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="try-demo.html">Try Demo</a></li>
+          <li><a href="safety.html">Safety Support</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &nbsp;/&nbsp; <span>Contact</span>
+    </div>
+
+    <section class="hero">
+      <div class="heroCard">
+        <h1>Contact</h1>
+        <p>
+          Sign up for a newsletter or ask a question (demo form). Your Figma includes a newsletter area on Contact.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="sectionTitle">Send a message</h2>
+      <video width="500" height="240" controls>
+     <source src="contact.mp4" type="video/mp4">
+
+</video>
+        <div class="mediaCaption">Contact (demo form).</div>
+      </div>
+
+      <form class="card" data-contact-form>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="Enter your email address..." />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your question here..."></textarea>
+
+        <button class="carouselBtn" type="submit">Submit</button>
+        <div class="formError" data-form-error aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="siteFooter">
+    <div class="container">
+      <div>Copyright © <span id="year"></span> Lumo. All rights reserved.</div>
+      <div class="footerLinks">
+        <a href="safety.html">Privacy Policy</a>
+        <a href="safety.html">Terms & Conditions</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

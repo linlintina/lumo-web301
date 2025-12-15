@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumo — Try Demo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/p5.min.js"></script>
+  <script src="js/sketch.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="siteHeader">
+    <div class="container">
+      <div class="headerRow">
+        <a class="brand" href="index.html">
+          <span class="brandMark" aria-hidden="true"></span>
+          <span class="brandName">Lumo</span>
+        </a>
+        <button class="navPill" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+
+      <nav id="site-nav" class="siteNav" aria-label="Primary">
+        <ul class="navList">
+          <li><a href="about.html">About</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="try-demo.html" aria-current="page">Try Demo</a></li>
+          <li><a href="safety.html">Safety & Support</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a> &nbsp;/&nbsp; <span>Try Demo</span>
+    </div>
+
+    <section class="hero">
+      <div class="heroCard">
+        <h1>Try Demo</h1>
+        <p>
+          This is a lightweight “demo” page (no real VR). It shows the idea with simple UI and copy.
+          Your Figma includes “Try Demo” as a key entry point. :contentReference[oaicite:2]{index=2}
+        </p>
+        <div class="btnRow">
+          <a class="btn" href="how-it-works.html">See steps first</a>
+          <a class="btn btnPrimary" href="safety.html">Read safety notes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="sectionTitle">Mood check-in (mock)</h2>
+      <div class="grid3">
+        <div class="card"><h3>Calm</h3><p>Soft pace, lighter sound.</p></div>
+        <div class="card"><h3>Stressed</h3><p>Slow breathing cue, grounded audio.</p></div>
+        <div class="card"><h3>Tired</h3><p>Short reset, gentle reflection.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="sectionTitle">VR experience (concept)</h2>
+      <div class="card">
+        <p>
+          Later we can add a background video or ambient sound. For now, keep it simple and focus on
+          structure + accessibility.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="siteFooter">
+    <div class="container">
+      <div>Copyright © <span id="year"></span> Lumo. All rights reserved.</div>
+      <div class="footerLinks">
+        <a href="safety.html">Privacy Policy</a>
+        <a href="safety.html">Terms & Conditions</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
